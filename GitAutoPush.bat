@@ -7,7 +7,7 @@
 	git init
 	
 	::Pull any external changes (maybe you deleted a file from your repo?)
-	git pull --all changes
+	git pull
 	
 	::Add all files in the directory
 	git add --all
@@ -24,7 +24,7 @@
 	
 	::Wait 3600 seconds until going to the start of the loop.
 	::Change as needed.
-	TIMEOUT 1
+	TIMEOUT 0
 	
 ::Restart from the top.	
 goto loop
