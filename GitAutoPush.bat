@@ -1,7 +1,7 @@
 :loop
 	:: Navigate to the directory you wish to push to GitHub
 	::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
-	cd C:\Users\spark\Desktop\programming\CPROJECT
+	cd C:\Users\spark\Desktop\programming
 
 	::Initialize GitHub
 	git init
@@ -24,7 +24,7 @@
 	
 	::Wait 3600 seconds until going to the start of the loop.
 	::Change as needed.
-	TIMEOUT 100
+	TIMEOUT 10
 	
 ::Restart from the top.	
 goto loop
