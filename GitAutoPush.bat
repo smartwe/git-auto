@@ -1,7 +1,7 @@
 :loop
 	:: Navigate to the directory you wish to push to GitHub
 	::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
-	cd C:\Users\jhpark\Documents\GitHub\Docker
+	cd C:\Users\spark\Desktop\programming
 
 	::Initialize GitHub
 	git init
@@ -14,7 +14,7 @@
 	
 	::Commit all changes with the message "auto push". 
 	::Change as needed.
-	git commit -m "auto push"
+	git commit -m "auto commit"
 	
 	::Push all changes to GitHub 
 	git push
