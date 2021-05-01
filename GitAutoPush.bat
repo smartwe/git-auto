@@ -1,7 +1,7 @@
 :loop
 	:: Navigate to the directory you wish to push to GitHub
 	::Change <path> as needed. Eg. C:\Users\pookie\Desktop\Writings
-	cd C:\Users\spark\Desktop\programming
+	cd C:\Users\spark\Desktop\programming\CPROJECT
 
 	::Initialize GitHub
 	git init
