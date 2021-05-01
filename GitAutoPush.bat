@@ -14,10 +14,10 @@
 	
 	::Commit all changes with the message "auto push". 
 	::Change as needed.
-	git commit -m "auto commit"
+	git commit -am "auto commit" 
 	
 	::Push all changes to GitHub 
-	git push
+	git push origin +master
 	
 	::Alert user to script completion and relaunch.
 	echo Complete. Relaunching...
